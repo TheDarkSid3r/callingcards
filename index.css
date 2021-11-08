@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    line-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    text-align: center;
+    background: url(background.png) no-repeat center/cover fixed;
+}
+
+.section {
+    padding: 30px 0;
+}
+
+.card {
+    position: relative;
+    width: 158px;
+    height: 180px;
+    display: inline-block;
+    background: url(card.png) no-repeat top/contain;
+    padding: 24px 14px;
+    margin: 10px;
+    box-shadow: -4px 3px 5px #000;
+}
+
+.card>canvas {
+    width: 100%;
+}
